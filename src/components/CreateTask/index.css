@@ -1,173 +1,173 @@
 .app-container {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .create-task-container {
-    background-color: #131213;
-    min-height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  background-color: #131213;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 .heading {
-    color: #f3aa4e;
-    font-size: 32px;
-    font-family: 'roboto';
-    font-weight: bold;
+  color: #f3aa4e;
+  font-size: 32px;
+  font-family: 'roboto';
+  font-weight: bold;
 }
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 .label {
-    align-self: flex-start;
-    color: #f1f5f9;
-    line-height: 2;
-    margin: 20px 0 0 0;
-    font-size: 16px;
-    font-family: 'roboto';
+  align-self: flex-start;
+  color: #f1f5f9;
+  line-height: 2;
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  font-family: 'roboto';
 }
 .input-task {
-    width: 100%;
-    padding: 10px;
-    color: #64748b;
-    background-color: #f1f5f9;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'roboto';
+  width: 100%;
+  padding: 10px;
+  color: #64748b;
+  background-color: #f1f5f9;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'roboto';
 }
 .input-task::placeholder {
-    color:  #475569;
+  color: #475569;
 }
 .select {
-    width: 100%;
-    padding: 10px;
-    margin: 0 0 30px 0;
-    color: #000000;
-    background-color: #f1f5f9;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'roboto';
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 30px 0;
+  color: #000000;
+  background-color: #f1f5f9;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'roboto';
 }
 .add-task-btn {
-    width: 100px;
-    color: #f8f8f8;
-    padding: 8px 15px;
-    background-color: #f3aa4e;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'roboto';
+  width: 100px;
+  color: #f8f8f8;
+  padding: 8px 15px;
+  background-color: #f3aa4e;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'roboto';
 }
 .task-container {
-    background-color: #000000;
-    min-height: 50vh;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    scroll-behavior: smooth;
-    overflow-y: auto;
+  background-color: #000000;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  scroll-behavior: smooth;
+  overflow-y: auto;
 }
 .mid-heading {
-    color: #f8f8f8;
-    font-size: 26px;
-    font-family: 'roboto';
-    font-weight: bold;
+  color: #f8f8f8;
+  font-size: 26px;
+  font-family: 'roboto';
+  font-weight: bold;
 }
 .tags-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
 }
 .active-tag {
-    color: #f8f8f8;
-    padding: 8px 15px;
-    background-color: #f3aa4e;
-    border-radius: 18px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'roboto';
+  color: #f8f8f8;
+  padding: 8px 15px;
+  background-color: #f3aa4e;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'roboto';
 }
 .tag-button {
-    color: #f8f8f8;
-    padding: 8px 15px;
-    border: 1px solid #f3aa4e;
-    background-color: transparent;
-    border-radius: 18px;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: 'roboto';
+  color: #f8f8f8;
+  padding: 8px 15px;
+  border: 1px solid #f3aa4e;
+  background-color: transparent;
+  border-radius: 18px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'roboto';
 }
 .no-task-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
 .no-task {
-    color: #ffffff;
-    font-size: 32px;
-    font-family: 'roboto';
-    font-weight: bold;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'roboto';
+  font-weight: bold;
 }
 .task-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 100%;
-    max-width: 600px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
 }
 @media screen and (min-width: 768px) {
-    .app-container {
-        flex-direction: row;
-    }
-    .create-task-container {
-        padding: 30px 40px;
-        width: 40%;
-    }
-    .heading {
-        font-size: 42px;
-    }
-    .label {
-        margin: 30px 0 0 0;
-    }
-    .select {
-        margin: 0 0 40px 0;
-    }
-    .task-container {
-        padding: 30px 40px;
-        width: 60%;
-    }
-    .no-task {
-        font-size: 42px;
-    }
+  .app-container {
+    flex-direction: row;
+  }
+  .create-task-container {
+    padding: 30px 40px;
+    width: 40%;
+  }
+  .heading {
+    font-size: 42px;
+  }
+  .label {
+    margin: 30px 0 0 0;
+  }
+  .select {
+    margin: 0 0 40px 0;
+  }
+  .task-container {
+    padding: 30px 40px;
+    width: 60%;
+  }
+  .no-task {
+    font-size: 42px;
+  }
 }
 @media screen and (min-width: 1200px) {
-    .create-task-container {
-        width: 30%;
-    }
-    .task-container {
-        padding: 40px 50px;
-        width: 70%;
-    }
+  .create-task-container {
+    width: 30%;
+  }
+  .task-container {
+    padding: 40px 50px;
+    width: 70%;
+  }
 }

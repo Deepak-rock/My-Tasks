@@ -1,21 +1,21 @@
 .task-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1a171d;
-    padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a171d;
+  padding: 8px 20px;
 }
 .task {
-    color: #ffffff;
-    font-size: 18px;
-    font-family: 'roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
 }
 .tag {
-    color: #f8f8f8;
-    padding: 8px 15px;
-    background-color: #f3aa4e;
-    border-radius: 18px;
-    font-size: 16px;
-    font-family: 'roboto';
-    margin: 0;
+  color: #f8f8f8;
+  padding: 8px 15px;
+  background-color: #f3aa4e;
+  border-radius: 18px;
+  font-size: 16px;
+  font-family: 'roboto';
+  margin: 0;
 }
