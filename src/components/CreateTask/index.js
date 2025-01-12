@@ -139,7 +139,7 @@ class CreateTask extends Component {
           <h2 className="mid-heading">Tasks</h2>
           {tasksList.length <= 0 ? (
             <div className="no-task-container">
-              <h1 className="no-task">No Tasks Added Yet</h1>
+              <p className="no-task">No Tasks Added Yet</p>
             </div>
           ) : (
             <ul className="task-list">
